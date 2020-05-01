@@ -6433,7 +6433,7 @@ a.list-item {
   color: #0a0a0a;
 }
 
-.navbar.is-white .navbar-brand > a.navbar-item:focus, .navbar.is-white .navbar-brand > a.navbar-item:hover, .navbar.is-white .navbar-brand > a.navbar-item.is-active,
+.navbar.is-white .navbar-brand > a.navbar-item:focus, .navbar.is-white .navbar-brand > a.navbar-item:hover, .navbar.is-white .navbar-brand > a.navbar-item.is-active, .navbar.is-white .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-white .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-white .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-white .navbar-brand .navbar-link:focus,
 .navbar.is-white .navbar-brand .navbar-link:hover,
 .navbar.is-white .navbar-brand .navbar-link.is-active {
@@ -6456,13 +6456,16 @@ a.list-item {
   .navbar.is-white .navbar-end .navbar-link {
     color: #0a0a0a;
   }
-  .navbar.is-white .navbar-start > a.navbar-item:focus, .navbar.is-white .navbar-start > a.navbar-item:hover, .navbar.is-white .navbar-start > a.navbar-item.is-active,
+  .navbar.is-white .navbar-start > a.navbar-item:focus, .navbar.is-white .navbar-start > a.navbar-item:hover, .navbar.is-white .navbar-start > a.navbar-item.is-active, .navbar.is-white .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-white .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-white .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-white .navbar-start .navbar-link:focus,
   .navbar.is-white .navbar-start .navbar-link:hover,
   .navbar.is-white .navbar-start .navbar-link.is-active,
   .navbar.is-white .navbar-end > a.navbar-item:focus,
   .navbar.is-white .navbar-end > a.navbar-item:hover,
   .navbar.is-white .navbar-end > a.navbar-item.is-active,
+  .navbar.is-white .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-white .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-white .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-white .navbar-end .navbar-link:focus,
   .navbar.is-white .navbar-end .navbar-link:hover,
   .navbar.is-white .navbar-end .navbar-link.is-active {
@@ -6479,6 +6482,7 @@ a.list-item {
     background-color: #f2f2f2;
     color: #0a0a0a;
   }
+  .navbar.is-white .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-white .navbar-dropdown a.navbar-item.is-active {
     background-color: white;
     color: #0a0a0a;
@@ -6495,7 +6499,7 @@ a.list-item {
   color: white;
 }
 
-.navbar.is-black .navbar-brand > a.navbar-item:focus, .navbar.is-black .navbar-brand > a.navbar-item:hover, .navbar.is-black .navbar-brand > a.navbar-item.is-active,
+.navbar.is-black .navbar-brand > a.navbar-item:focus, .navbar.is-black .navbar-brand > a.navbar-item:hover, .navbar.is-black .navbar-brand > a.navbar-item.is-active, .navbar.is-black .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-black .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-black .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-black .navbar-brand .navbar-link:focus,
 .navbar.is-black .navbar-brand .navbar-link:hover,
 .navbar.is-black .navbar-brand .navbar-link.is-active {
@@ -6518,13 +6522,16 @@ a.list-item {
   .navbar.is-black .navbar-end .navbar-link {
     color: white;
   }
-  .navbar.is-black .navbar-start > a.navbar-item:focus, .navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active,
+  .navbar.is-black .navbar-start > a.navbar-item:focus, .navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active, .navbar.is-black .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-black .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-black .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-black .navbar-start .navbar-link:focus,
   .navbar.is-black .navbar-start .navbar-link:hover,
   .navbar.is-black .navbar-start .navbar-link.is-active,
   .navbar.is-black .navbar-end > a.navbar-item:focus,
   .navbar.is-black .navbar-end > a.navbar-item:hover,
   .navbar.is-black .navbar-end > a.navbar-item.is-active,
+  .navbar.is-black .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-black .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-black .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-black .navbar-end .navbar-link:focus,
   .navbar.is-black .navbar-end .navbar-link:hover,
   .navbar.is-black .navbar-end .navbar-link.is-active {
@@ -6541,6 +6548,7 @@ a.list-item {
     background-color: black;
     color: white;
   }
+  .navbar.is-black .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-black .navbar-dropdown a.navbar-item.is-active {
     background-color: #0a0a0a;
     color: white;
@@ -6557,7 +6565,7 @@ a.list-item {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar.is-light .navbar-brand > a.navbar-item:focus, .navbar.is-light .navbar-brand > a.navbar-item:hover, .navbar.is-light .navbar-brand > a.navbar-item.is-active,
+.navbar.is-light .navbar-brand > a.navbar-item:focus, .navbar.is-light .navbar-brand > a.navbar-item:hover, .navbar.is-light .navbar-brand > a.navbar-item.is-active, .navbar.is-light .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-light .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-light .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-light .navbar-brand .navbar-link:focus,
 .navbar.is-light .navbar-brand .navbar-link:hover,
 .navbar.is-light .navbar-brand .navbar-link.is-active {
@@ -6580,13 +6588,16 @@ a.list-item {
   .navbar.is-light .navbar-end .navbar-link {
     color: rgba(0, 0, 0, 0.7);
   }
-  .navbar.is-light .navbar-start > a.navbar-item:focus, .navbar.is-light .navbar-start > a.navbar-item:hover, .navbar.is-light .navbar-start > a.navbar-item.is-active,
+  .navbar.is-light .navbar-start > a.navbar-item:focus, .navbar.is-light .navbar-start > a.navbar-item:hover, .navbar.is-light .navbar-start > a.navbar-item.is-active, .navbar.is-light .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-light .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-light .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-light .navbar-start .navbar-link:focus,
   .navbar.is-light .navbar-start .navbar-link:hover,
   .navbar.is-light .navbar-start .navbar-link.is-active,
   .navbar.is-light .navbar-end > a.navbar-item:focus,
   .navbar.is-light .navbar-end > a.navbar-item:hover,
   .navbar.is-light .navbar-end > a.navbar-item.is-active,
+  .navbar.is-light .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-light .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-light .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-light .navbar-end .navbar-link:focus,
   .navbar.is-light .navbar-end .navbar-link:hover,
   .navbar.is-light .navbar-end .navbar-link.is-active {
@@ -6603,6 +6614,7 @@ a.list-item {
     background-color: #e8e8e8;
     color: rgba(0, 0, 0, 0.7);
   }
+  .navbar.is-light .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-light .navbar-dropdown a.navbar-item.is-active {
     background-color: whitesmoke;
     color: rgba(0, 0, 0, 0.7);
@@ -6619,7 +6631,7 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-dark .navbar-brand > a.navbar-item:focus, .navbar.is-dark .navbar-brand > a.navbar-item:hover, .navbar.is-dark .navbar-brand > a.navbar-item.is-active,
+.navbar.is-dark .navbar-brand > a.navbar-item:focus, .navbar.is-dark .navbar-brand > a.navbar-item:hover, .navbar.is-dark .navbar-brand > a.navbar-item.is-active, .navbar.is-dark .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-dark .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-dark .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-dark .navbar-brand .navbar-link:focus,
 .navbar.is-dark .navbar-brand .navbar-link:hover,
 .navbar.is-dark .navbar-brand .navbar-link.is-active {
@@ -6642,13 +6654,16 @@ a.list-item {
   .navbar.is-dark .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-dark .navbar-start > a.navbar-item:focus, .navbar.is-dark .navbar-start > a.navbar-item:hover, .navbar.is-dark .navbar-start > a.navbar-item.is-active,
+  .navbar.is-dark .navbar-start > a.navbar-item:focus, .navbar.is-dark .navbar-start > a.navbar-item:hover, .navbar.is-dark .navbar-start > a.navbar-item.is-active, .navbar.is-dark .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-dark .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-dark .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-dark .navbar-start .navbar-link:focus,
   .navbar.is-dark .navbar-start .navbar-link:hover,
   .navbar.is-dark .navbar-start .navbar-link.is-active,
   .navbar.is-dark .navbar-end > a.navbar-item:focus,
   .navbar.is-dark .navbar-end > a.navbar-item:hover,
   .navbar.is-dark .navbar-end > a.navbar-item.is-active,
+  .navbar.is-dark .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-dark .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-dark .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-dark .navbar-end .navbar-link:focus,
   .navbar.is-dark .navbar-end .navbar-link:hover,
   .navbar.is-dark .navbar-end .navbar-link.is-active {
@@ -6665,6 +6680,7 @@ a.list-item {
     background-color: #292929;
     color: #fff;
   }
+  .navbar.is-dark .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-dark .navbar-dropdown a.navbar-item.is-active {
     background-color: #363636;
     color: #fff;
@@ -6681,7 +6697,7 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-primary .navbar-brand > a.navbar-item:focus, .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active,
+.navbar.is-primary .navbar-brand > a.navbar-item:focus, .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active, .navbar.is-primary .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-primary .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-primary .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-primary .navbar-brand .navbar-link:focus,
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
@@ -6704,13 +6720,16 @@ a.list-item {
   .navbar.is-primary .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-primary .navbar-start > a.navbar-item:focus, .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active,
+  .navbar.is-primary .navbar-start > a.navbar-item:focus, .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active, .navbar.is-primary .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-primary .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-primary .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-primary .navbar-start .navbar-link:focus,
   .navbar.is-primary .navbar-start .navbar-link:hover,
   .navbar.is-primary .navbar-start .navbar-link.is-active,
   .navbar.is-primary .navbar-end > a.navbar-item:focus,
   .navbar.is-primary .navbar-end > a.navbar-item:hover,
   .navbar.is-primary .navbar-end > a.navbar-item.is-active,
+  .navbar.is-primary .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-primary .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-primary .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-primary .navbar-end .navbar-link:focus,
   .navbar.is-primary .navbar-end .navbar-link:hover,
   .navbar.is-primary .navbar-end .navbar-link.is-active {
@@ -6727,6 +6746,7 @@ a.list-item {
     background-color: #00b89c;
     color: #fff;
   }
+  .navbar.is-primary .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
     background-color: #00d1b2;
     color: #fff;
@@ -6743,7 +6763,7 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-link .navbar-brand > a.navbar-item:focus, .navbar.is-link .navbar-brand > a.navbar-item:hover, .navbar.is-link .navbar-brand > a.navbar-item.is-active,
+.navbar.is-link .navbar-brand > a.navbar-item:focus, .navbar.is-link .navbar-brand > a.navbar-item:hover, .navbar.is-link .navbar-brand > a.navbar-item.is-active, .navbar.is-link .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-link .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-link .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-link .navbar-brand .navbar-link:focus,
 .navbar.is-link .navbar-brand .navbar-link:hover,
 .navbar.is-link .navbar-brand .navbar-link.is-active {
@@ -6766,13 +6786,16 @@ a.list-item {
   .navbar.is-link .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-link .navbar-start > a.navbar-item:focus, .navbar.is-link .navbar-start > a.navbar-item:hover, .navbar.is-link .navbar-start > a.navbar-item.is-active,
+  .navbar.is-link .navbar-start > a.navbar-item:focus, .navbar.is-link .navbar-start > a.navbar-item:hover, .navbar.is-link .navbar-start > a.navbar-item.is-active, .navbar.is-link .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-link .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-link .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-link .navbar-start .navbar-link:focus,
   .navbar.is-link .navbar-start .navbar-link:hover,
   .navbar.is-link .navbar-start .navbar-link.is-active,
   .navbar.is-link .navbar-end > a.navbar-item:focus,
   .navbar.is-link .navbar-end > a.navbar-item:hover,
   .navbar.is-link .navbar-end > a.navbar-item.is-active,
+  .navbar.is-link .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-link .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-link .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-link .navbar-end .navbar-link:focus,
   .navbar.is-link .navbar-end .navbar-link:hover,
   .navbar.is-link .navbar-end .navbar-link.is-active {
@@ -6789,6 +6812,7 @@ a.list-item {
     background-color: #2366d1;
     color: #fff;
   }
+  .navbar.is-link .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-link .navbar-dropdown a.navbar-item.is-active {
     background-color: #3273dc;
     color: #fff;
@@ -6805,7 +6829,7 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-info .navbar-brand > a.navbar-item:focus, .navbar.is-info .navbar-brand > a.navbar-item:hover, .navbar.is-info .navbar-brand > a.navbar-item.is-active,
+.navbar.is-info .navbar-brand > a.navbar-item:focus, .navbar.is-info .navbar-brand > a.navbar-item:hover, .navbar.is-info .navbar-brand > a.navbar-item.is-active, .navbar.is-info .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-info .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-info .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-info .navbar-brand .navbar-link:focus,
 .navbar.is-info .navbar-brand .navbar-link:hover,
 .navbar.is-info .navbar-brand .navbar-link.is-active {
@@ -6828,13 +6852,16 @@ a.list-item {
   .navbar.is-info .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-info .navbar-start > a.navbar-item:focus, .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active,
+  .navbar.is-info .navbar-start > a.navbar-item:focus, .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active, .navbar.is-info .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-info .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-info .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-info .navbar-start .navbar-link:focus,
   .navbar.is-info .navbar-start .navbar-link:hover,
   .navbar.is-info .navbar-start .navbar-link.is-active,
   .navbar.is-info .navbar-end > a.navbar-item:focus,
   .navbar.is-info .navbar-end > a.navbar-item:hover,
   .navbar.is-info .navbar-end > a.navbar-item.is-active,
+  .navbar.is-info .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-info .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-info .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-info .navbar-end .navbar-link:focus,
   .navbar.is-info .navbar-end .navbar-link:hover,
   .navbar.is-info .navbar-end .navbar-link.is-active {
@@ -6851,6 +6878,7 @@ a.list-item {
     background-color: #238cd1;
     color: #fff;
   }
+  .navbar.is-info .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-info .navbar-dropdown a.navbar-item.is-active {
     background-color: #3298dc;
     color: #fff;
@@ -6867,7 +6895,7 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-success .navbar-brand > a.navbar-item:focus, .navbar.is-success .navbar-brand > a.navbar-item:hover, .navbar.is-success .navbar-brand > a.navbar-item.is-active,
+.navbar.is-success .navbar-brand > a.navbar-item:focus, .navbar.is-success .navbar-brand > a.navbar-item:hover, .navbar.is-success .navbar-brand > a.navbar-item.is-active, .navbar.is-success .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-success .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-success .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-success .navbar-brand .navbar-link:focus,
 .navbar.is-success .navbar-brand .navbar-link:hover,
 .navbar.is-success .navbar-brand .navbar-link.is-active {
@@ -6890,13 +6918,16 @@ a.list-item {
   .navbar.is-success .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-success .navbar-start > a.navbar-item:focus, .navbar.is-success .navbar-start > a.navbar-item:hover, .navbar.is-success .navbar-start > a.navbar-item.is-active,
+  .navbar.is-success .navbar-start > a.navbar-item:focus, .navbar.is-success .navbar-start > a.navbar-item:hover, .navbar.is-success .navbar-start > a.navbar-item.is-active, .navbar.is-success .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-success .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-success .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-success .navbar-start .navbar-link:focus,
   .navbar.is-success .navbar-start .navbar-link:hover,
   .navbar.is-success .navbar-start .navbar-link.is-active,
   .navbar.is-success .navbar-end > a.navbar-item:focus,
   .navbar.is-success .navbar-end > a.navbar-item:hover,
   .navbar.is-success .navbar-end > a.navbar-item.is-active,
+  .navbar.is-success .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-success .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-success .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-success .navbar-end .navbar-link:focus,
   .navbar.is-success .navbar-end .navbar-link:hover,
   .navbar.is-success .navbar-end .navbar-link.is-active {
@@ -6913,6 +6944,7 @@ a.list-item {
     background-color: #3abb67;
     color: #fff;
   }
+  .navbar.is-success .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-success .navbar-dropdown a.navbar-item.is-active {
     background-color: #48c774;
     color: #fff;
@@ -6929,7 +6961,7 @@ a.list-item {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar.is-warning .navbar-brand > a.navbar-item:focus, .navbar.is-warning .navbar-brand > a.navbar-item:hover, .navbar.is-warning .navbar-brand > a.navbar-item.is-active,
+.navbar.is-warning .navbar-brand > a.navbar-item:focus, .navbar.is-warning .navbar-brand > a.navbar-item:hover, .navbar.is-warning .navbar-brand > a.navbar-item.is-active, .navbar.is-warning .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-warning .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-warning .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-warning .navbar-brand .navbar-link:focus,
 .navbar.is-warning .navbar-brand .navbar-link:hover,
 .navbar.is-warning .navbar-brand .navbar-link.is-active {
@@ -6952,13 +6984,16 @@ a.list-item {
   .navbar.is-warning .navbar-end .navbar-link {
     color: rgba(0, 0, 0, 0.7);
   }
-  .navbar.is-warning .navbar-start > a.navbar-item:focus, .navbar.is-warning .navbar-start > a.navbar-item:hover, .navbar.is-warning .navbar-start > a.navbar-item.is-active,
+  .navbar.is-warning .navbar-start > a.navbar-item:focus, .navbar.is-warning .navbar-start > a.navbar-item:hover, .navbar.is-warning .navbar-start > a.navbar-item.is-active, .navbar.is-warning .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-warning .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-warning .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-warning .navbar-start .navbar-link:focus,
   .navbar.is-warning .navbar-start .navbar-link:hover,
   .navbar.is-warning .navbar-start .navbar-link.is-active,
   .navbar.is-warning .navbar-end > a.navbar-item:focus,
   .navbar.is-warning .navbar-end > a.navbar-item:hover,
   .navbar.is-warning .navbar-end > a.navbar-item.is-active,
+  .navbar.is-warning .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-warning .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-warning .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-warning .navbar-end .navbar-link:focus,
   .navbar.is-warning .navbar-end .navbar-link:hover,
   .navbar.is-warning .navbar-end .navbar-link.is-active {
@@ -6975,6 +7010,7 @@ a.list-item {
     background-color: #ffd83d;
     color: rgba(0, 0, 0, 0.7);
   }
+  .navbar.is-warning .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-warning .navbar-dropdown a.navbar-item.is-active {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7);
@@ -6991,7 +7027,7 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-danger .navbar-brand > a.navbar-item:focus, .navbar.is-danger .navbar-brand > a.navbar-item:hover, .navbar.is-danger .navbar-brand > a.navbar-item.is-active,
+.navbar.is-danger .navbar-brand > a.navbar-item:focus, .navbar.is-danger .navbar-brand > a.navbar-item:hover, .navbar.is-danger .navbar-brand > a.navbar-item.is-active, .navbar.is-danger .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-danger .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-danger .navbar-brand b-navbar-item.navbar-item.is-active,
 .navbar.is-danger .navbar-brand .navbar-link:focus,
 .navbar.is-danger .navbar-brand .navbar-link:hover,
 .navbar.is-danger .navbar-brand .navbar-link.is-active {
@@ -7014,13 +7050,16 @@ a.list-item {
   .navbar.is-danger .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-danger .navbar-start > a.navbar-item:focus, .navbar.is-danger .navbar-start > a.navbar-item:hover, .navbar.is-danger .navbar-start > a.navbar-item.is-active,
+  .navbar.is-danger .navbar-start > a.navbar-item:focus, .navbar.is-danger .navbar-start > a.navbar-item:hover, .navbar.is-danger .navbar-start > a.navbar-item.is-active, .navbar.is-danger .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-danger .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-danger .navbar-start b-navbar-item.navbar-item.is-active,
   .navbar.is-danger .navbar-start .navbar-link:focus,
   .navbar.is-danger .navbar-start .navbar-link:hover,
   .navbar.is-danger .navbar-start .navbar-link.is-active,
   .navbar.is-danger .navbar-end > a.navbar-item:focus,
   .navbar.is-danger .navbar-end > a.navbar-item:hover,
   .navbar.is-danger .navbar-end > a.navbar-item.is-active,
+  .navbar.is-danger .navbar-end b-navbar-item.navbar-item:focus,
+  .navbar.is-danger .navbar-end b-navbar-item.navbar-item:hover,
+  .navbar.is-danger .navbar-end b-navbar-item.navbar-item.is-active,
   .navbar.is-danger .navbar-end .navbar-link:focus,
   .navbar.is-danger .navbar-end .navbar-link:hover,
   .navbar.is-danger .navbar-end .navbar-link.is-active {
@@ -7037,6 +7076,7 @@ a.list-item {
     background-color: #ef2e55;
     color: #fff;
   }
+  .navbar.is-danger .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-danger .navbar-dropdown a.navbar-item.is-active {
     background-color: #f14668;
     color: #fff;
@@ -7091,7 +7131,9 @@ body.has-navbar-fixed-bottom {
   min-height: 3.25rem;
 }
 
-.navbar-brand a.navbar-item:focus, .navbar-brand a.navbar-item:hover {
+.navbar-brand b-navbar-item.navbar-item:focus, .navbar-brand b-navbar-item.navbar-item:hover,
+.navbar-brand a.navbar-item:focus,
+.navbar-brand a.navbar-item:hover {
   background-color: transparent;
 }
 
@@ -7172,12 +7214,17 @@ body.has-navbar-fixed-bottom {
   margin-right: -0.25rem;
 }
 
+b-navbar-item.navbar-item,
 a.navbar-item,
 .navbar-link {
   cursor: pointer;
 }
 
-a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active,
+b-navbar-item.navbar-item:focus, b-navbar-item.navbar-item:focus-within, b-navbar-item.navbar-item:hover, b-navbar-item.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover,
+a.navbar-item.is-active,
 .navbar-link:focus,
 .navbar-link:focus-within,
 .navbar-link:hover,
@@ -7326,11 +7373,15 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar.is-spaced .navbar-end {
     align-items: center;
   }
+  .navbar.is-spaced b-navbar-item.navbar-item,
   .navbar.is-spaced a.navbar-item,
   .navbar.is-spaced .navbar-link {
     border-radius: 4px;
   }
-  .navbar.is-transparent a.navbar-item:focus, .navbar.is-transparent a.navbar-item:hover, .navbar.is-transparent a.navbar-item.is-active,
+  .navbar.is-transparent b-navbar-item.navbar-item:focus, .navbar.is-transparent b-navbar-item.navbar-item:hover, .navbar.is-transparent b-navbar-item.navbar-item.is-active,
+  .navbar.is-transparent a.navbar-item:focus,
+  .navbar.is-transparent a.navbar-item:hover,
+  .navbar.is-transparent a.navbar-item.is-active,
   .navbar.is-transparent .navbar-link:focus,
   .navbar.is-transparent .navbar-link:hover,
   .navbar.is-transparent .navbar-link.is-active {
@@ -7339,10 +7390,13 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar.is-transparent .navbar-item.has-dropdown.is-active .navbar-link, .navbar.is-transparent .navbar-item.has-dropdown.is-hoverable:focus .navbar-link, .navbar.is-transparent .navbar-item.has-dropdown.is-hoverable:focus-within .navbar-link, .navbar.is-transparent .navbar-item.has-dropdown.is-hoverable:hover .navbar-link {
     background-color: transparent !important;
   }
-  .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
+  .navbar.is-transparent .navbar-dropdown b-navbar-item.navbar-item:focus, .navbar.is-transparent .navbar-dropdown b-navbar-item.navbar-item:hover,
+  .navbar.is-transparent .navbar-dropdown a.navbar-item:focus,
+  .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
     background-color: whitesmoke;
     color: #0a0a0a;
   }
+  .navbar.is-transparent .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: whitesmoke;
     color: #3273dc;
@@ -7407,13 +7461,17 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     padding: 0.375rem 1rem;
     white-space: nowrap;
   }
+  .navbar-dropdown b-navbar-item.navbar-item,
   .navbar-dropdown a.navbar-item {
     padding-right: 3rem;
   }
-  .navbar-dropdown a.navbar-item:focus, .navbar-dropdown a.navbar-item:hover {
+  .navbar-dropdown b-navbar-item.navbar-item:focus, .navbar-dropdown b-navbar-item.navbar-item:hover,
+  .navbar-dropdown a.navbar-item:focus,
+  .navbar-dropdown a.navbar-item:hover {
     background-color: whitesmoke;
     color: #0a0a0a;
   }
+  .navbar-dropdown b-navbar-item.navbar-item.is-active,
   .navbar-dropdown a.navbar-item.is-active {
     background-color: whitesmoke;
     color: #3273dc;
@@ -7476,10 +7534,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   body.has-spaced-navbar-fixed-bottom {
     padding-bottom: 5.25rem;
   }
+  b-navbar-item.navbar-item.is-active,
   a.navbar-item.is-active,
   .navbar-link.is-active {
     color: #0a0a0a;
   }
+  b-navbar-item.navbar-item.is-active:not(:focus):not(:hover),
   a.navbar-item.is-active:not(:focus):not(:hover),
   .navbar-link.is-active:not(:focus):not(:hover) {
     background-color: transparent;
