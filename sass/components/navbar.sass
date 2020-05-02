@@ -67,7 +67,8 @@ $navbar-breakpoint: $desktop !default
         & > .navbar-item,
         .navbar-link
           color: $color-invert
-        & > a.navbar-item,b-navbar-item.navbar-item,
+        & > a.navbar-item,
+        & > b-navbar-item.navbar-item,
         .navbar-link
           &:focus,
           &:hover,
@@ -85,7 +86,8 @@ $navbar-breakpoint: $desktop !default
           & > .navbar-item,
           .navbar-link
             color: $color-invert
-          & > a.navbar-item,b-navbar-item.navbar-item,
+          & > a.navbar-item,
+          & > b-navbar-item.navbar-item,
           .navbar-link
             &:focus,
             &:hover,
@@ -124,6 +126,7 @@ $navbar-breakpoint: $desktop !default
     top: 0
 
 html,
+b-navbar,
 body
   &.has-navbar-fixed-top
     padding-top: $navbar-height
@@ -269,6 +272,7 @@ a.navbar-item,
         max-height: calc(100vh - #{$navbar-height})
         overflow: auto
   html,
+  b-navbar,
   body
     &.has-navbar-fixed-top-touch
       padding-top: $navbar-height
@@ -418,6 +422,7 @@ a.navbar-item,
     &.is-fixed-top-desktop
       top: 0
   html,
+  b-navbar,
   body
     &.has-navbar-fixed-top-desktop
       padding-top: $navbar-height
