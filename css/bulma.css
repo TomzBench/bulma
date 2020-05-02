@@ -6433,7 +6433,10 @@ a.list-item {
   color: #0a0a0a;
 }
 
-.navbar.is-white .navbar-brand > a.navbar-item:focus, .navbar.is-white .navbar-brand > a.navbar-item:hover, .navbar.is-white .navbar-brand > a.navbar-item.is-active, .navbar.is-white .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-white .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-white .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-white .navbar-brand > a.navbar-item:focus, .navbar.is-white .navbar-brand > a.navbar-item:hover, .navbar.is-white .navbar-brand > a.navbar-item.is-active,
+.navbar.is-white .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-white .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-white .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-white .navbar-brand .navbar-link:focus,
 .navbar.is-white .navbar-brand .navbar-link:hover,
 .navbar.is-white .navbar-brand .navbar-link.is-active {
@@ -6456,16 +6459,19 @@ a.list-item {
   .navbar.is-white .navbar-end .navbar-link {
     color: #0a0a0a;
   }
-  .navbar.is-white .navbar-start > a.navbar-item:focus, .navbar.is-white .navbar-start > a.navbar-item:hover, .navbar.is-white .navbar-start > a.navbar-item.is-active, .navbar.is-white .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-white .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-white .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-white .navbar-start > a.navbar-item:focus, .navbar.is-white .navbar-start > a.navbar-item:hover, .navbar.is-white .navbar-start > a.navbar-item.is-active,
+  .navbar.is-white .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-white .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-white .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-white .navbar-start .navbar-link:focus,
   .navbar.is-white .navbar-start .navbar-link:hover,
   .navbar.is-white .navbar-start .navbar-link.is-active,
   .navbar.is-white .navbar-end > a.navbar-item:focus,
   .navbar.is-white .navbar-end > a.navbar-item:hover,
   .navbar.is-white .navbar-end > a.navbar-item.is-active,
-  .navbar.is-white .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-white .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-white .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-white .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-white .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-white .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-white .navbar-end .navbar-link:focus,
   .navbar.is-white .navbar-end .navbar-link:hover,
   .navbar.is-white .navbar-end .navbar-link.is-active {
@@ -6499,7 +6505,10 @@ a.list-item {
   color: white;
 }
 
-.navbar.is-black .navbar-brand > a.navbar-item:focus, .navbar.is-black .navbar-brand > a.navbar-item:hover, .navbar.is-black .navbar-brand > a.navbar-item.is-active, .navbar.is-black .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-black .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-black .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-black .navbar-brand > a.navbar-item:focus, .navbar.is-black .navbar-brand > a.navbar-item:hover, .navbar.is-black .navbar-brand > a.navbar-item.is-active,
+.navbar.is-black .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-black .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-black .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-black .navbar-brand .navbar-link:focus,
 .navbar.is-black .navbar-brand .navbar-link:hover,
 .navbar.is-black .navbar-brand .navbar-link.is-active {
@@ -6522,16 +6531,19 @@ a.list-item {
   .navbar.is-black .navbar-end .navbar-link {
     color: white;
   }
-  .navbar.is-black .navbar-start > a.navbar-item:focus, .navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active, .navbar.is-black .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-black .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-black .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-black .navbar-start > a.navbar-item:focus, .navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active,
+  .navbar.is-black .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-black .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-black .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-black .navbar-start .navbar-link:focus,
   .navbar.is-black .navbar-start .navbar-link:hover,
   .navbar.is-black .navbar-start .navbar-link.is-active,
   .navbar.is-black .navbar-end > a.navbar-item:focus,
   .navbar.is-black .navbar-end > a.navbar-item:hover,
   .navbar.is-black .navbar-end > a.navbar-item.is-active,
-  .navbar.is-black .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-black .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-black .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-black .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-black .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-black .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-black .navbar-end .navbar-link:focus,
   .navbar.is-black .navbar-end .navbar-link:hover,
   .navbar.is-black .navbar-end .navbar-link.is-active {
@@ -6565,7 +6577,10 @@ a.list-item {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar.is-light .navbar-brand > a.navbar-item:focus, .navbar.is-light .navbar-brand > a.navbar-item:hover, .navbar.is-light .navbar-brand > a.navbar-item.is-active, .navbar.is-light .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-light .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-light .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-light .navbar-brand > a.navbar-item:focus, .navbar.is-light .navbar-brand > a.navbar-item:hover, .navbar.is-light .navbar-brand > a.navbar-item.is-active,
+.navbar.is-light .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-light .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-light .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-light .navbar-brand .navbar-link:focus,
 .navbar.is-light .navbar-brand .navbar-link:hover,
 .navbar.is-light .navbar-brand .navbar-link.is-active {
@@ -6588,16 +6603,19 @@ a.list-item {
   .navbar.is-light .navbar-end .navbar-link {
     color: rgba(0, 0, 0, 0.7);
   }
-  .navbar.is-light .navbar-start > a.navbar-item:focus, .navbar.is-light .navbar-start > a.navbar-item:hover, .navbar.is-light .navbar-start > a.navbar-item.is-active, .navbar.is-light .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-light .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-light .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-light .navbar-start > a.navbar-item:focus, .navbar.is-light .navbar-start > a.navbar-item:hover, .navbar.is-light .navbar-start > a.navbar-item.is-active,
+  .navbar.is-light .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-light .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-light .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-light .navbar-start .navbar-link:focus,
   .navbar.is-light .navbar-start .navbar-link:hover,
   .navbar.is-light .navbar-start .navbar-link.is-active,
   .navbar.is-light .navbar-end > a.navbar-item:focus,
   .navbar.is-light .navbar-end > a.navbar-item:hover,
   .navbar.is-light .navbar-end > a.navbar-item.is-active,
-  .navbar.is-light .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-light .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-light .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-light .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-light .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-light .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-light .navbar-end .navbar-link:focus,
   .navbar.is-light .navbar-end .navbar-link:hover,
   .navbar.is-light .navbar-end .navbar-link.is-active {
@@ -6631,7 +6649,10 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-dark .navbar-brand > a.navbar-item:focus, .navbar.is-dark .navbar-brand > a.navbar-item:hover, .navbar.is-dark .navbar-brand > a.navbar-item.is-active, .navbar.is-dark .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-dark .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-dark .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-dark .navbar-brand > a.navbar-item:focus, .navbar.is-dark .navbar-brand > a.navbar-item:hover, .navbar.is-dark .navbar-brand > a.navbar-item.is-active,
+.navbar.is-dark .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-dark .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-dark .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-dark .navbar-brand .navbar-link:focus,
 .navbar.is-dark .navbar-brand .navbar-link:hover,
 .navbar.is-dark .navbar-brand .navbar-link.is-active {
@@ -6654,16 +6675,19 @@ a.list-item {
   .navbar.is-dark .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-dark .navbar-start > a.navbar-item:focus, .navbar.is-dark .navbar-start > a.navbar-item:hover, .navbar.is-dark .navbar-start > a.navbar-item.is-active, .navbar.is-dark .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-dark .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-dark .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-dark .navbar-start > a.navbar-item:focus, .navbar.is-dark .navbar-start > a.navbar-item:hover, .navbar.is-dark .navbar-start > a.navbar-item.is-active,
+  .navbar.is-dark .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-dark .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-dark .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-dark .navbar-start .navbar-link:focus,
   .navbar.is-dark .navbar-start .navbar-link:hover,
   .navbar.is-dark .navbar-start .navbar-link.is-active,
   .navbar.is-dark .navbar-end > a.navbar-item:focus,
   .navbar.is-dark .navbar-end > a.navbar-item:hover,
   .navbar.is-dark .navbar-end > a.navbar-item.is-active,
-  .navbar.is-dark .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-dark .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-dark .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-dark .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-dark .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-dark .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-dark .navbar-end .navbar-link:focus,
   .navbar.is-dark .navbar-end .navbar-link:hover,
   .navbar.is-dark .navbar-end .navbar-link.is-active {
@@ -6697,7 +6721,10 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-primary .navbar-brand > a.navbar-item:focus, .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active, .navbar.is-primary .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-primary .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-primary .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-primary .navbar-brand > a.navbar-item:focus, .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active,
+.navbar.is-primary .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-primary .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-primary .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-primary .navbar-brand .navbar-link:focus,
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
@@ -6720,16 +6747,19 @@ a.list-item {
   .navbar.is-primary .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-primary .navbar-start > a.navbar-item:focus, .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active, .navbar.is-primary .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-primary .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-primary .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-primary .navbar-start > a.navbar-item:focus, .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active,
+  .navbar.is-primary .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-primary .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-primary .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-primary .navbar-start .navbar-link:focus,
   .navbar.is-primary .navbar-start .navbar-link:hover,
   .navbar.is-primary .navbar-start .navbar-link.is-active,
   .navbar.is-primary .navbar-end > a.navbar-item:focus,
   .navbar.is-primary .navbar-end > a.navbar-item:hover,
   .navbar.is-primary .navbar-end > a.navbar-item.is-active,
-  .navbar.is-primary .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-primary .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-primary .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-primary .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-primary .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-primary .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-primary .navbar-end .navbar-link:focus,
   .navbar.is-primary .navbar-end .navbar-link:hover,
   .navbar.is-primary .navbar-end .navbar-link.is-active {
@@ -6763,7 +6793,10 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-link .navbar-brand > a.navbar-item:focus, .navbar.is-link .navbar-brand > a.navbar-item:hover, .navbar.is-link .navbar-brand > a.navbar-item.is-active, .navbar.is-link .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-link .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-link .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-link .navbar-brand > a.navbar-item:focus, .navbar.is-link .navbar-brand > a.navbar-item:hover, .navbar.is-link .navbar-brand > a.navbar-item.is-active,
+.navbar.is-link .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-link .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-link .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-link .navbar-brand .navbar-link:focus,
 .navbar.is-link .navbar-brand .navbar-link:hover,
 .navbar.is-link .navbar-brand .navbar-link.is-active {
@@ -6786,16 +6819,19 @@ a.list-item {
   .navbar.is-link .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-link .navbar-start > a.navbar-item:focus, .navbar.is-link .navbar-start > a.navbar-item:hover, .navbar.is-link .navbar-start > a.navbar-item.is-active, .navbar.is-link .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-link .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-link .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-link .navbar-start > a.navbar-item:focus, .navbar.is-link .navbar-start > a.navbar-item:hover, .navbar.is-link .navbar-start > a.navbar-item.is-active,
+  .navbar.is-link .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-link .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-link .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-link .navbar-start .navbar-link:focus,
   .navbar.is-link .navbar-start .navbar-link:hover,
   .navbar.is-link .navbar-start .navbar-link.is-active,
   .navbar.is-link .navbar-end > a.navbar-item:focus,
   .navbar.is-link .navbar-end > a.navbar-item:hover,
   .navbar.is-link .navbar-end > a.navbar-item.is-active,
-  .navbar.is-link .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-link .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-link .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-link .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-link .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-link .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-link .navbar-end .navbar-link:focus,
   .navbar.is-link .navbar-end .navbar-link:hover,
   .navbar.is-link .navbar-end .navbar-link.is-active {
@@ -6829,7 +6865,10 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-info .navbar-brand > a.navbar-item:focus, .navbar.is-info .navbar-brand > a.navbar-item:hover, .navbar.is-info .navbar-brand > a.navbar-item.is-active, .navbar.is-info .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-info .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-info .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-info .navbar-brand > a.navbar-item:focus, .navbar.is-info .navbar-brand > a.navbar-item:hover, .navbar.is-info .navbar-brand > a.navbar-item.is-active,
+.navbar.is-info .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-info .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-info .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-info .navbar-brand .navbar-link:focus,
 .navbar.is-info .navbar-brand .navbar-link:hover,
 .navbar.is-info .navbar-brand .navbar-link.is-active {
@@ -6852,16 +6891,19 @@ a.list-item {
   .navbar.is-info .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-info .navbar-start > a.navbar-item:focus, .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active, .navbar.is-info .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-info .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-info .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-info .navbar-start > a.navbar-item:focus, .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active,
+  .navbar.is-info .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-info .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-info .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-info .navbar-start .navbar-link:focus,
   .navbar.is-info .navbar-start .navbar-link:hover,
   .navbar.is-info .navbar-start .navbar-link.is-active,
   .navbar.is-info .navbar-end > a.navbar-item:focus,
   .navbar.is-info .navbar-end > a.navbar-item:hover,
   .navbar.is-info .navbar-end > a.navbar-item.is-active,
-  .navbar.is-info .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-info .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-info .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-info .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-info .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-info .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-info .navbar-end .navbar-link:focus,
   .navbar.is-info .navbar-end .navbar-link:hover,
   .navbar.is-info .navbar-end .navbar-link.is-active {
@@ -6895,7 +6937,10 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-success .navbar-brand > a.navbar-item:focus, .navbar.is-success .navbar-brand > a.navbar-item:hover, .navbar.is-success .navbar-brand > a.navbar-item.is-active, .navbar.is-success .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-success .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-success .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-success .navbar-brand > a.navbar-item:focus, .navbar.is-success .navbar-brand > a.navbar-item:hover, .navbar.is-success .navbar-brand > a.navbar-item.is-active,
+.navbar.is-success .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-success .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-success .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-success .navbar-brand .navbar-link:focus,
 .navbar.is-success .navbar-brand .navbar-link:hover,
 .navbar.is-success .navbar-brand .navbar-link.is-active {
@@ -6918,16 +6963,19 @@ a.list-item {
   .navbar.is-success .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-success .navbar-start > a.navbar-item:focus, .navbar.is-success .navbar-start > a.navbar-item:hover, .navbar.is-success .navbar-start > a.navbar-item.is-active, .navbar.is-success .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-success .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-success .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-success .navbar-start > a.navbar-item:focus, .navbar.is-success .navbar-start > a.navbar-item:hover, .navbar.is-success .navbar-start > a.navbar-item.is-active,
+  .navbar.is-success .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-success .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-success .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-success .navbar-start .navbar-link:focus,
   .navbar.is-success .navbar-start .navbar-link:hover,
   .navbar.is-success .navbar-start .navbar-link.is-active,
   .navbar.is-success .navbar-end > a.navbar-item:focus,
   .navbar.is-success .navbar-end > a.navbar-item:hover,
   .navbar.is-success .navbar-end > a.navbar-item.is-active,
-  .navbar.is-success .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-success .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-success .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-success .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-success .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-success .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-success .navbar-end .navbar-link:focus,
   .navbar.is-success .navbar-end .navbar-link:hover,
   .navbar.is-success .navbar-end .navbar-link.is-active {
@@ -6961,7 +7009,10 @@ a.list-item {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar.is-warning .navbar-brand > a.navbar-item:focus, .navbar.is-warning .navbar-brand > a.navbar-item:hover, .navbar.is-warning .navbar-brand > a.navbar-item.is-active, .navbar.is-warning .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-warning .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-warning .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-warning .navbar-brand > a.navbar-item:focus, .navbar.is-warning .navbar-brand > a.navbar-item:hover, .navbar.is-warning .navbar-brand > a.navbar-item.is-active,
+.navbar.is-warning .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-warning .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-warning .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-warning .navbar-brand .navbar-link:focus,
 .navbar.is-warning .navbar-brand .navbar-link:hover,
 .navbar.is-warning .navbar-brand .navbar-link.is-active {
@@ -6984,16 +7035,19 @@ a.list-item {
   .navbar.is-warning .navbar-end .navbar-link {
     color: rgba(0, 0, 0, 0.7);
   }
-  .navbar.is-warning .navbar-start > a.navbar-item:focus, .navbar.is-warning .navbar-start > a.navbar-item:hover, .navbar.is-warning .navbar-start > a.navbar-item.is-active, .navbar.is-warning .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-warning .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-warning .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-warning .navbar-start > a.navbar-item:focus, .navbar.is-warning .navbar-start > a.navbar-item:hover, .navbar.is-warning .navbar-start > a.navbar-item.is-active,
+  .navbar.is-warning .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-warning .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-warning .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-warning .navbar-start .navbar-link:focus,
   .navbar.is-warning .navbar-start .navbar-link:hover,
   .navbar.is-warning .navbar-start .navbar-link.is-active,
   .navbar.is-warning .navbar-end > a.navbar-item:focus,
   .navbar.is-warning .navbar-end > a.navbar-item:hover,
   .navbar.is-warning .navbar-end > a.navbar-item.is-active,
-  .navbar.is-warning .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-warning .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-warning .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-warning .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-warning .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-warning .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-warning .navbar-end .navbar-link:focus,
   .navbar.is-warning .navbar-end .navbar-link:hover,
   .navbar.is-warning .navbar-end .navbar-link.is-active {
@@ -7027,7 +7081,10 @@ a.list-item {
   color: #fff;
 }
 
-.navbar.is-danger .navbar-brand > a.navbar-item:focus, .navbar.is-danger .navbar-brand > a.navbar-item:hover, .navbar.is-danger .navbar-brand > a.navbar-item.is-active, .navbar.is-danger .navbar-brand b-navbar-item.navbar-item:focus, .navbar.is-danger .navbar-brand b-navbar-item.navbar-item:hover, .navbar.is-danger .navbar-brand b-navbar-item.navbar-item.is-active,
+.navbar.is-danger .navbar-brand > a.navbar-item:focus, .navbar.is-danger .navbar-brand > a.navbar-item:hover, .navbar.is-danger .navbar-brand > a.navbar-item.is-active,
+.navbar.is-danger .navbar-brand > b-navbar-item.navbar-item:focus,
+.navbar.is-danger .navbar-brand > b-navbar-item.navbar-item:hover,
+.navbar.is-danger .navbar-brand > b-navbar-item.navbar-item.is-active,
 .navbar.is-danger .navbar-brand .navbar-link:focus,
 .navbar.is-danger .navbar-brand .navbar-link:hover,
 .navbar.is-danger .navbar-brand .navbar-link.is-active {
@@ -7050,16 +7107,19 @@ a.list-item {
   .navbar.is-danger .navbar-end .navbar-link {
     color: #fff;
   }
-  .navbar.is-danger .navbar-start > a.navbar-item:focus, .navbar.is-danger .navbar-start > a.navbar-item:hover, .navbar.is-danger .navbar-start > a.navbar-item.is-active, .navbar.is-danger .navbar-start b-navbar-item.navbar-item:focus, .navbar.is-danger .navbar-start b-navbar-item.navbar-item:hover, .navbar.is-danger .navbar-start b-navbar-item.navbar-item.is-active,
+  .navbar.is-danger .navbar-start > a.navbar-item:focus, .navbar.is-danger .navbar-start > a.navbar-item:hover, .navbar.is-danger .navbar-start > a.navbar-item.is-active,
+  .navbar.is-danger .navbar-start > b-navbar-item.navbar-item:focus,
+  .navbar.is-danger .navbar-start > b-navbar-item.navbar-item:hover,
+  .navbar.is-danger .navbar-start > b-navbar-item.navbar-item.is-active,
   .navbar.is-danger .navbar-start .navbar-link:focus,
   .navbar.is-danger .navbar-start .navbar-link:hover,
   .navbar.is-danger .navbar-start .navbar-link.is-active,
   .navbar.is-danger .navbar-end > a.navbar-item:focus,
   .navbar.is-danger .navbar-end > a.navbar-item:hover,
   .navbar.is-danger .navbar-end > a.navbar-item.is-active,
-  .navbar.is-danger .navbar-end b-navbar-item.navbar-item:focus,
-  .navbar.is-danger .navbar-end b-navbar-item.navbar-item:hover,
-  .navbar.is-danger .navbar-end b-navbar-item.navbar-item.is-active,
+  .navbar.is-danger .navbar-end > b-navbar-item.navbar-item:focus,
+  .navbar.is-danger .navbar-end > b-navbar-item.navbar-item:hover,
+  .navbar.is-danger .navbar-end > b-navbar-item.navbar-item.is-active,
   .navbar.is-danger .navbar-end .navbar-link:focus,
   .navbar.is-danger .navbar-end .navbar-link:hover,
   .navbar.is-danger .navbar-end .navbar-link.is-active {
@@ -7114,11 +7174,13 @@ a.list-item {
 }
 
 html.has-navbar-fixed-top,
+b-navbar.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
   padding-top: 3.25rem;
 }
 
 html.has-navbar-fixed-bottom,
+b-navbar.has-navbar-fixed-bottom,
 body.has-navbar-fixed-bottom {
   padding-bottom: 3.25rem;
 }
@@ -7346,10 +7408,12 @@ a.navbar-item.is-active,
     overflow: auto;
   }
   html.has-navbar-fixed-top-touch,
+  b-navbar.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
     padding-top: 3.25rem;
   }
   html.has-navbar-fixed-bottom-touch,
+  b-navbar.has-navbar-fixed-bottom-touch,
   body.has-navbar-fixed-bottom-touch {
     padding-bottom: 3.25rem;
   }
@@ -7519,18 +7583,22 @@ a.navbar-item.is-active,
     top: 0;
   }
   html.has-navbar-fixed-top-desktop,
+  b-navbar.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
     padding-top: 3.25rem;
   }
   html.has-navbar-fixed-bottom-desktop,
+  b-navbar.has-navbar-fixed-bottom-desktop,
   body.has-navbar-fixed-bottom-desktop {
     padding-bottom: 3.25rem;
   }
   html.has-spaced-navbar-fixed-top,
+  b-navbar.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
     padding-top: 5.25rem;
   }
   html.has-spaced-navbar-fixed-bottom,
+  b-navbar.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
     padding-bottom: 5.25rem;
   }
